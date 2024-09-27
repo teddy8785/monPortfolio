@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+  
+    &__title {
+      text-align: center;
+      font-weight: 600;
+      font-size: 40px;
+      color: blue;
+    }
+    
+    &__gallery {
+      width:100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 20px;
+      align-content: center;
+      justify-content: center;
+    }
+  }

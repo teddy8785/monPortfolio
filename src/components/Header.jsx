@@ -3,7 +3,7 @@ import '../styles/header.css';
 function Header() {
   return (
       <header className="header">
-      <p>Mon portfolio</p>
+      <h1 className="header__title">Mon portfolio</h1>
       </header>
   );
 }

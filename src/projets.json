@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1",
+    "nom": "Riding cities",
+    "description": "Démarrer sur HTML et CSS en analysant et en complétant une landing page.",
+    "mission": "Mettre à jour la page internet de Riding Cities, une association sportive qui promeut le skate en région.",
+    "objectifs": [
+      "Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML"
+    ],
+    "image": "/images/ridingCities_site.jpg",
+    "pictures": ["/images/ridingCities_site.jpg"]
+  },
+
+  {
+    "id": "2",
+    "nom": "Booki",
+    "description": "Créer la page d'accueil d'une agence de voyage avec HTML & CSS.",
+    "mission": "Intégrer la page web de Booki, une plateforme de réservation de vacances.",
+    "objectifs": [
+      "Installer un environnement de développement front-end.",
+      "Implémenter une interface responsive avec HTML et CSS.",
+      "Intégrer du contenu conformément à une maquette avec HTML et CSS."
+    ],
+    "image": "/images/booki_site.jpg",
+    "pictures": ["/images/booki_site.jpg"]
+  },
+  {
+    "id": "3",
+    "nom": "Oh My Food",
+    "description": "Améliorer l'interface d'un site mobile avec des animations CSS.",
+    "mission": "Développer un site 'mobile first' qui répertorie les menus de restaurants gastronomiques.",
+    "objectifs": [
+      "Intégrer une maquette en mobile-first.",
+      "Mettre en œuvre des animations CSS.",
+      "Versionner son projet avec Git et Github."
+    ],
+    "image": "/images/ohMyFood_site1.jpg",
+    "pictures": [
+        "/images/ohMyFood_site1.jpg",
+        "/images/ohMyFood_site2.jpg"
+    ],
+    "github": "https://github.com/teddy8785/p4_ohMyFood",
+    "lien": "https://teddy8785.github.io/p4_ohMyFood/"
+  },
+  {
+    "id": "4",
+    "nom": "Print it",
+    "description": "Premiers pas sur le langage JavaScript.",
+    "mission": "Réaliser le carrousel du site internet d'une imprimerie avec JavaScript.",
+    "objectifs": [
+      "Programmer en utilisant les fondamentaux de JavaScript."
+    ],
+    "image": "/images/printIt_site.jpg",
+    "pictures": [
+        "/images/printIt_site.jpg"
+    ],
+    "github": "https://github.com/teddy8785/p5_print_it",
+    "lien": "https://teddy8785.github.io/p5_print_it/"
+  },
+  {
+    "id": "5",
+    "nom": "Sophie Bluel",
+    "description": "Premiers pas sur le langage JavaScript.",
+    "mission": "Réaliser le carrousel du site internet d'une imprimerie avec JavaScript.",
+    "objectifs": [
+      "Gérer les événements utilisateurs avec JavaScript.",
+      "Manipuler les éléments du DOM avec JavaScript.",
+      "Récupérer les données utilisateurs dans le JavaScript via des formulaires."
+    ],
+    "image": "/images/sophieBluel_site1.jpg",
+    "pictures": [
+        "/images/sophieBluel_site1.jpg",
+        "/images/sophieBluel_site2.jpg",
+        "/images/sophieBluel_site3.jpg"
+    ],
+    "github": "https://github.com/teddy8785/p6SophieBluel"
+  },
+  {
+    "id": "6",
+    "nom": "Kasa",
+    "description": "Créer une application web de location immobilière avec React.",
+    "mission": "Démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, en suivant les maquettes Figma.",
+    "objectifs": [
+      "Initialiser une application avec Create React App.",
+      "Configurer la navigation entre les pages de l'application avec React Router.",
+      "Développer des éléments de l'interface d'un site web grâce à des composants React.",
+      "Mettre en œuvre des animations CSS.",
+      "Développer une interface web avec Sass."
+    ],
+    "image": "/images/kasa_site1.jpg",
+    "pictures": [
+        "/images/kasa_site1.jpg",
+        "/images/kasa_site2.jpg",
+        "/images/kasa_site3.jpg"
+    ],
+    "github": "https://github.com/teddy8785/P7_Kasa"
+  },
+  {
+    "id": "7",
+    "nom": "Nina Carducci",
+    "description": "Optimiser le référencement d'un site de photographe.",
+    "mission": "Aider mon client à apparaître en tête des résultats de recherche Google grâce aux bonnes pratiques de SEO et d'accessibilité.",
+    "objectifs": [
+      "Optimiser la performance d'un site web."
+    ],
+    "image": "/images/ninaCarducci_site.jpg",
+    "pictures": [
+        "/images/ninaCarducci_site.jpg"
+    ],
+    "github": "https://github.com/teddy8785/p8_ninaCarducci",
+    "lien": "https://teddy8785.github.io/p8_ninaCarducci/"
+  },
+  {
+    "id": "8",
+    "nom": "724 events",
+    "description": "Débugger le site d'une agence d'événementiel.",
+    "mission": "Prendre le relais d'un autre développeur pour réparer le site de l'agence.",
+    "objectifs": [
+      "Débugger un site web grâce aux Chrome DevTools.",
+      "Rédiger un cahier de recette pour tester un site."
+    ],
+    "image": "/images/724Events_site.jpg",
+    "pictures": [
+        "/images/724Events_site.jpg"
+    ],
+    "github": "https://github.com/teddy8785/p9_724events"
+  },
+  {
+    "id": "9",
+    "nom": "Argent Bank",
+    "description": "Implémenter le front-end d'une application bancaire avec React.",
+    "mission": "Prendre le relais d'un autre développeur pour réparer le site de l'agence.",
+    "objectifs": [
+      "Afficher les données du back end sur l'interface via des appels API.",
+      "Configurer des routes API pour la communication client / serveur.",
+      "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front."
+    ],
+    "image": "/images/argentBank_site1.jpg",
+    "pictures": [
+        "/images/argentBank_site1.jpg",
+        "/images/argentBank_site2.jpg",
+        "/images/argentBank_site3.jpg"
+    ],
+    "github": "https://github.com/teddy8785/p10_argentBank"
+  }
+]

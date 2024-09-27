@@ -1,3 +1,10 @@
-.Header {
-  text-align: center;
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+}
+.header__title {
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
 }/*# sourceMappingURL=header.css.map */

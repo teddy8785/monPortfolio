@@ -1,0 +1,33 @@
+a {
+    text-decoration: none;
+}
+.card {
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+
+    &__title {
+        text-align: center;
+        color: blue;
+        font-size: 25px;
+        margin-bottom:0;
+    }
+
+    &__description {
+        color: black;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    &__img {
+        width: 100%;
+        object-fit: cover;
+        object-fit: content;
+        height: 200px;
+    }
+
+    &__list {
+        color: black;
+    }
+}
