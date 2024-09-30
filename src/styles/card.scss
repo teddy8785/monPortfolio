@@ -5,6 +5,7 @@ a {
   border: black 1px solid;
   border-radius: 10px;
   padding: 5px;
+  transition: transform 200ms;
 
   &:hover {
     transform: scale(1.05);
@@ -19,18 +20,20 @@ a {
   }
 
   &__description {
+    font-size: 18px;
     color: black;
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 30px;
     height: 50px;
+    overflow: auto;
   }
 
   &__img {
     width: 100%;
     object-fit: cover;
     object-position: top;
-    height: 200px;
+    height: 230px;
   }
 
   &__link {
@@ -41,5 +44,13 @@ a {
 @media (max-width: 768px) {
   .card {
     padding: 10px;
+
+    &__title {
+      font-size: 15px;
+    }
+
+    &__description {
+      font-size: 10px;
+    }
   }
 }

@@ -9,3 +9,11 @@
     color: white;
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    &__title {
+      font-size: 30px;
+    }
+  }
+}
