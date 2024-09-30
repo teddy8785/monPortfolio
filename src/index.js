@@ -14,7 +14,7 @@ root.render(
         <Route path="/" element={<Navigate to="/Accueil" />} />
         <Route path="/Accueil" element={<Accueil />} />
         <Route path="/Projet" element={<Projet />} />
-        <Route path="/Projet/:id" element={<Projet />} />
+        <Route path="/projet/:id" element={<Projet />} />
       </Routes>
     </Router>
   </React.StrictMode>

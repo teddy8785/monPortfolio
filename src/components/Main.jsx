@@ -17,6 +17,7 @@ function Main() {
           nom={post.nom}
           description={post.description}
           image={post.image}
+          imageDown={post.imageDown}
           />
         ))
       }

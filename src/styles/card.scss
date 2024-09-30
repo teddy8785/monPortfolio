@@ -1,33 +1,45 @@
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .card {
-    border: black 1px solid;
+  border: black 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &__title {
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  &__description {
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    height: 50px;
+  }
+
+  &__img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 200px;
+  }
+
+  &__link {
     border-radius: 10px;
-    padding: 5px;
+  }
+}
 
-    &__title {
-        text-align: center;
-        color: blue;
-        font-size: 25px;
-        margin-bottom:0;
-    }
-
-    &__description {
-        color: black;
-        text-align: center;
-        font-weight: 700;
-        margin-bottom: 30px;
-    }
-
-    &__img {
-        width: 100%;
-        object-fit: cover;
-        object-fit: content;
-        height: 200px;
-    }
-
-    &__list {
-        color: black;
-    }
+@media (max-width: 768px) {
+  .card {
+    padding: 10px;
+  }
 }

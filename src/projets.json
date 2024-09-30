@@ -8,6 +8,7 @@
       "Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML"
     ],
     "image": "/images/ridingCities_site.jpg",
+    "imageDown": "/imagesDown/ridingCities_site.webP",
     "pictures": ["/images/ridingCities_site.jpg"]
   },
 
@@ -22,6 +23,7 @@
       "Intégrer du contenu conformément à une maquette avec HTML et CSS."
     ],
     "image": "/images/booki_site.jpg",
+    "imageDown": "/imagesDown/booki_site.webP",
     "pictures": ["/images/booki_site.jpg"]
   },
   {
@@ -35,6 +37,7 @@
       "Versionner son projet avec Git et Github."
     ],
     "image": "/images/ohMyFood_site1.jpg",
+    "imageDown": "/imagesDown/ohMyFood_site1.webP",
     "pictures": [
         "/images/ohMyFood_site1.jpg",
         "/images/ohMyFood_site2.jpg"
@@ -51,6 +54,7 @@
       "Programmer en utilisant les fondamentaux de JavaScript."
     ],
     "image": "/images/printIt_site.jpg",
+    "imageDown": "/imagesDown/printIt_site.webP",
     "pictures": [
         "/images/printIt_site.jpg"
     ],
@@ -68,6 +72,7 @@
       "Récupérer les données utilisateurs dans le JavaScript via des formulaires."
     ],
     "image": "/images/sophieBluel_site1.jpg",
+    "imageDown": "/imagesDown/sophieBluel_site1.webP",
     "pictures": [
         "/images/sophieBluel_site1.jpg",
         "/images/sophieBluel_site2.jpg",
@@ -88,6 +93,7 @@
       "Développer une interface web avec Sass."
     ],
     "image": "/images/kasa_site1.jpg",
+    "imageDown": "/imagesDown/kasa_site1.webP",
     "pictures": [
         "/images/kasa_site1.jpg",
         "/images/kasa_site2.jpg",
@@ -104,6 +110,7 @@
       "Optimiser la performance d'un site web."
     ],
     "image": "/images/ninaCarducci_site.jpg",
+    "imageDown": "/imagesDown/ninaCarducci_site.webP",
     "pictures": [
         "/images/ninaCarducci_site.jpg"
     ],
@@ -120,6 +127,7 @@
       "Rédiger un cahier de recette pour tester un site."
     ],
     "image": "/images/724Events_site.jpg",
+    "imageDown": "/imagesDown/724Events_site.webP",
     "pictures": [
         "/images/724Events_site.jpg"
     ],
@@ -136,6 +144,7 @@
       "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front."
     ],
     "image": "/images/argentBank_site1.jpg",
+    "imageDown": "/imagesDown/argentBank_site1.webP",
     "pictures": [
         "/images/argentBank_site1.jpg",
         "/images/argentBank_site2.jpg",
