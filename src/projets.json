@@ -7,6 +7,10 @@
     "objectifs": [
       "Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML"
     ],
+    "competences": [
+      "Familiarisation  à Visual Studio Code",
+      "Compréhension des bases du HTML et CSS"
+    ],
     "image": "/images/ridingCities_site.jpg",
     "imageDown": "/imagesDown/ridingCities_site.webP",
     "pictures": ["/images/ridingCities_site.jpg"]
@@ -22,6 +26,11 @@
       "Implémenter une interface responsive avec HTML et CSS.",
       "Intégrer du contenu conformément à une maquette avec HTML et CSS."
     ],
+    "competences": [
+      "Intégrer des maquettes en utilisant HTML et CSS",
+      "Capacité à créer des interfaces web reponsives"
+      
+    ],
     "image": "/images/booki_site.jpg",
     "imageDown": "/imagesDown/booki_site.webP",
     "pictures": ["/images/booki_site.jpg"]
@@ -35,6 +44,12 @@
       "Intégrer une maquette en mobile-first.",
       "Mettre en œuvre des animations CSS.",
       "Versionner son projet avec Git et Github."
+    ],
+    "competences": [
+      "Intégrer des maquettes en mobile-first",
+      "Implémenter des animations CSS",
+      "Utiliser le SASS",
+      "Versionner mon projet avec Git et Github"
     ],
     "image": "/images/ohMyFood_site1.jpg",
     "imageDown": "/imagesDown/ohMyFood_site1.webP",
@@ -53,6 +68,9 @@
     "objectifs": [
       "Programmer en utilisant les fondamentaux de JavaScript."
     ],
+    "competences": [
+      "Initiation au langage JavaScript"
+    ],
     "image": "/images/printIt_site.jpg",
     "imageDown": "/imagesDown/printIt_site.webP",
     "pictures": [
@@ -70,6 +88,11 @@
       "Gérer les événements utilisateurs avec JavaScript.",
       "Manipuler les éléments du DOM avec JavaScript.",
       "Récupérer les données utilisateurs dans le JavaScript via des formulaires."
+    ],
+    "competences": [
+      "Gérer les intéractions utilisateurs",
+      "Manipuler des éléments du DOM avec JavaScipt",
+      "Communiquer avec une API"
     ],
     "image": "/images/sophieBluel_site1.jpg",
     "imageDown": "/imagesDown/sophieBluel_site1.webP",
@@ -92,6 +115,10 @@
       "Mettre en œuvre des animations CSS.",
       "Développer une interface web avec Sass."
     ],
+    "competences": [
+      "Implémenter le front-end d'une application en utilisant React",
+      "Configurer la navigation entre différentes pages d'une application avec React Router"
+    ],
     "image": "/images/kasa_site1.jpg",
     "imageDown": "/imagesDown/kasa_site1.webP",
     "pictures": [
@@ -108,6 +135,11 @@
     "mission": "Aider mon client à apparaître en tête des résultats de recherche Google grâce aux bonnes pratiques de SEO et d'accessibilité.",
     "objectifs": [
       "Optimiser la performance d'un site web."
+    ],
+    "competences": [
+      "Identifier les problèmes de chargement et de référencement",
+      "Améliorer les performances et l'accessibilité d'un site pour un meilleur référencement",
+      "Utiliser des outils tels que Lighthouse et Wave"
     ],
     "image": "/images/ninaCarducci_site.jpg",
     "imageDown": "/imagesDown/ninaCarducci_site.webP",
@@ -126,6 +158,10 @@
       "Débugger un site web grâce aux Chrome DevTools.",
       "Rédiger un cahier de recette pour tester un site."
     ],
+    "competences": [
+      "Utiliser Chrome DevTools pour identifier et comprendre les problèmes et les bugs",
+      "Utiliser mes compétences en JavaScript et React Developers Tools pour résoudre les bugs"
+    ],
     "image": "/images/724Events_site.jpg",
     "imageDown": "/imagesDown/724Events_site.webP",
     "pictures": [
@@ -142,6 +178,11 @@
       "Afficher les données du back end sur l'interface via des appels API.",
       "Configurer des routes API pour la communication client / serveur.",
       "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front."
+    ],
+    "competences": [
+      "Développement d'une interface utilisateur avec React",
+      "Utilisation de Redux pour gérer les données de l'application",
+      "Utiliser Swagger pour documenter une API"
     ],
     "image": "/images/argentBank_site1.jpg",
     "imageDown": "/imagesDown/argentBank_site1.webP",

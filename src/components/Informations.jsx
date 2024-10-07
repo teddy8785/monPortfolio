@@ -8,30 +8,36 @@ function Informations() {
 
   return (
     <div className="informations">
-      <div>
-        <h2>Mission</h2>
+      <div className="informations__content">
+        <h2 className="informations__title">Mission</h2>
         <p>{post.mission}</p>
-        {post.objectifs.length === 1 ? <h2>Objectif</h2> : <h2>Objectifs</h2>}
+        {post.objectifs.length === 1 ? <h2 className="informations__title">Objectif</h2> : <h2 className="informations__title">Objectifs</h2>}
         <ul>
           {post.objectifs.map((objectif, index) => (
             <li key={index}>{objectif}</li>
           ))}
         </ul>
-        <div>
+        {post.competences.length === 1 ? <h2 className="informations__title">Compétence acquise</h2> : <h2 className="informations__title">Compétences acquises</h2>}
+        <ul>
+          {post.competences.map((competence, index) => (
+            <li key={index}>{competence}</li>
+          ))}
+        </ul>
+        <div className="informations__link--content">
           {post.github ? (
             <>
               <h2>Lien vers Github</h2>
-              <a className="link" href={post.github}>
+              <a className="informations__link" href={post.github}>
                 Github
               </a>
             </>
           ) : null}
         </div>
-        <div>
+        <div className="informations__link--content">
           {post.lien ? (
             <>
               <h2>Lien vers le site</h2>
-              <a className="link" href={post.lien}>
+              <a className="informations__link" href={post.lien}>
                 Site
               </a>
             </>
