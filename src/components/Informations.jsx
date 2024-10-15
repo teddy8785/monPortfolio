@@ -7,44 +7,41 @@ function Informations() {
   const post = data.find((projet) => projet.id === id);
 
   return (
-    <div className="informations">
+    <section className="informations">
+      <div className="informations__resume--column">
+            <h2 className="informations__title">Mission</h2>
+            <p className= "informations__elements">{post.mission}</p>
+          </div>
       <div className="informations__content">
-        <h2 className="informations__title">Mission</h2>
-        <p>{post.mission}</p>
-        {post.objectifs.length === 1 ? <h2 className="informations__title">Objectif</h2> : <h2 className="informations__title">Objectifs</h2>}
-        <ul>
-          {post.objectifs.map((objectif, index) => (
-            <li key={index}>{objectif}</li>
-          ))}
-        </ul>
-        {post.competences.length === 1 ? <h2 className="informations__title">Compétence acquise</h2> : <h2 className="informations__title">Compétences acquises</h2>}
-        <ul>
-          {post.competences.map((competence, index) => (
-            <li key={index}>{competence}</li>
-          ))}
-        </ul>
-        <div className="informations__link--content">
-          {post.github ? (
-            <>
-              <h2>Lien vers Github</h2>
-              <a className="informations__link" href={post.github}>
-                Github
-              </a>
-            </>
-          ) : null}
-        </div>
-        <div className="informations__link--content">
-          {post.lien ? (
-            <>
-              <h2>Lien vers le site</h2>
-              <a className="informations__link" href={post.lien}>
-                Site
-              </a>
-            </>
-          ) : null}
+        <div className="informations__resume">
+          <div className="informations__resume--column">
+            {post.objectifs.length === 1 ? (
+              <h2 className="informations__title">Objectif</h2>
+            ) : (
+              <h2 className="informations__title">Objectifs</h2>
+            )}
+            <ul>
+              {post.objectifs.map((objectif, index) => (
+                <li className= "informations__elements" key={index}>{objectif}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="informations__line"></div>
+          <div className="informations__resume--column">
+            {post.competences.length === 1 ? (
+              <h2 className="informations__title">Compétence acquise</h2>
+            ) : (
+              <h2 className="informations__title">Compétences acquises</h2>
+            )}
+            <ul>
+              {post.competences.map((competence, index) => (
+                <li className= "informations__elements" key={index}>{competence}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -1,10 +1,7 @@
-import '../styles/footer.css';
+import "../styles/footer.css";
 
-function Header() {
-  return (
-      <footer className="footer">
-      </footer>
-  );
+function Footer({ children }) {
+  return <footer className="footer">{children}</footer>;
 }
 
-export default Header;
+export default Footer;

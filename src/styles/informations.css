@@ -1,28 +1,50 @@
 .informations {
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .informations__content {
+  display: flex;
   padding: 20px;
+}
+.informations__resume {
+  display: flex;
+  gap: 150px;
+}
+.informations__resume--column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
 }
 .informations__title {
   text-align: center;
-  font-size: 30px;
+  font-size: 32px;
+  text-decoration: underline;
+}
+.informations__elements {
+  font-size: 20px;
+}
+.informations__line {
+  width: 2px;
+  background-color: black;
+  height: auto;
+  align-self: stretch;
 }
 .informations__link {
   border-radius: 8px;
   padding: 10px;
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: blue;
   display: inline-block;
   width: 150px;
   text-align: center;
 }
 .informations__link--content {
   display: flex;
-  flex-direction: column;
+  gap: 20px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=informations.css.map */

@@ -1,23 +1,48 @@
 .informations {
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     &__content {
+        display: flex;
         padding: 20px;
+    }
+
+    &__resume {
+        display: flex;
+        gap: 150px;
+    }
+
+    &__resume--column {
+        flex: 1;
+        padding: 20px; 
+        box-sizing: border-box;
     }
 
     &__title {
         text-align: center;
-        font-size: 30px;
+        font-size: 32px;
+        text-decoration: underline;
+    }
+
+    &__elements {
+        font-size: 20px;
+    }
+
+    &__line {
+        width: 2px;
+        background-color: black;
+        height: auto;
+        align-self: stretch;
     }
 
     &__link {
         border-radius: 8px;
         padding: 10px;
-        background-color: blue;
-        color: white;
+        background-color: white;
+        color: blue;
         display: inline-block;
         width: 150px;
         text-align: center;
@@ -25,8 +50,9 @@
 
     &__link--content {
         display: flex;
-        flex-direction: column;
+        gap: 20px;
         align-items: center;
         justify-content: center;
+        margin-bottom: 10px;
     }
 }

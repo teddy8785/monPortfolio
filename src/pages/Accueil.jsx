@@ -6,10 +6,10 @@ function Accueil() {
   return (
     <div>
       <Header>
-      <h1 className="header__title">Mon portfolio</h1>
+        <h1 className="header__title">Mon portfolio</h1>
       </Header>
       <Main />
-      <Footer />
+      <Footer></Footer>
     </div>
   );
 }
