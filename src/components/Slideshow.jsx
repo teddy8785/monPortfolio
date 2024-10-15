@@ -33,7 +33,7 @@ function Slideshow() {
 
   return (
     <section className="slideshow">
-      <img className="slideshow__img" src={pictures[index]} alt="" />
+      <img className="slideshow__img" src={`${process.env.PUBLIC_URL}/${pictures[index]}`} alt="images du site" />
       <img
         id="arrow_left"
         className={`${deleteArrowLeft}`}
