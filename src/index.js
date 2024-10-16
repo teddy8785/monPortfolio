@@ -8,7 +8,7 @@ import Projet from "./pages/Projet.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Router basename="/monPortfolio">
+    <Router>
       <Routes>
         <Route path="/" element={<Navigate to="/Accueil" />} />
         <Route path="/Accueil" element={<Accueil />} />
