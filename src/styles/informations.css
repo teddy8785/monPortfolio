@@ -47,4 +47,12 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .informations__resume {
+    display: block;
+  }
+  .informations__link--content {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=informations.css.map */

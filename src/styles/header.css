@@ -11,9 +11,8 @@
   margin-bottom: 10px;
   color: white;
 }
-
 @media (max-width: 768px) {
-  .header__title {
+  .header .header__title {
     font-size: 30px;
   }
 }/*# sourceMappingURL=header.css.map */

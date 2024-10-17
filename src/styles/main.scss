@@ -27,5 +27,9 @@
     &__title {
       font-size: 25px;
     }
+
+    &__gallery {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 }

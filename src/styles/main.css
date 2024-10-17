@@ -24,4 +24,7 @@
   .main__title {
     font-size: 25px;
   }
+  .main__gallery {
+    grid-template-columns: 1fr 1fr;
+  }
 }/*# sourceMappingURL=main.css.map */
