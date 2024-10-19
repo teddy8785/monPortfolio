@@ -20,6 +20,11 @@ function Slideshow() {
     setIndex((img) => (img - 1 + pictures.length) % pictures.length);
   };
 
+  const openImageInNewTab = (img) => {
+    const imageUrl = `${process.env.PUBLIC_URL}/${img}`;
+    window.open(imageUrl, "_blank"); // Ouvre l'image dans un nouvel onglet
+  };
+  
   const deleteArrowLeft =
     pictures.length === 1
       ? "slideshow__arrow--delete"
@@ -33,7 +38,7 @@ function Slideshow() {
 
   return (
     <section className="slideshow">
-      <img className="slideshow__img" src={`${process.env.PUBLIC_URL}/${pictures[index]}`} alt="images du site" />
+      <img className="slideshow__img" src={`${process.env.PUBLIC_URL}/${pictures[index]}`} alt="images du site" onClick={() => openImageInNewTab(pictures[index])}/>
       <img
         id="arrow_left"
         className={`${deleteArrowLeft}`}

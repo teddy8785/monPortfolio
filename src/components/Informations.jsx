@@ -6,6 +6,10 @@ function Informations() {
   const { id } = useParams();
   const post = data.find((projet) => projet.id === id);
 
+  if (!post) {
+    return <div>Projet non trouvé</div>;
+  }
+  
   return (
     <section className="informations">
       <div className="informations__resume--column">

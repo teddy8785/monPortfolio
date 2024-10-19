@@ -6,7 +6,7 @@ import "../styles/main.css";
 function Main() {
   return (
     <main className="main">
-      <h2 className="main__title">Mes projets</h2>
+      <h2 className="main__title" id="projet">Mes projets</h2>
       <div className="main__gallery">
         {data.map((post) => (
           <Card
