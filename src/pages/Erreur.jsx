@@ -9,7 +9,7 @@ function Erreur() {
         <h1 className="header__title">Cette page n'existe pas</h1>
       </Header>
       <MsgErreur />
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }

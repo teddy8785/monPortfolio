@@ -3,6 +3,7 @@ import { HashLink } from "react-router-hash-link";
 import Header from "../components/Header";
 import Presentation from "../components/Presentation";
 import Main from "../components/Main";
+import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 function Accueil() {
@@ -24,12 +25,8 @@ function Accueil() {
       </Header>
       <Presentation />
       <Main />
-      <Footer>
-        <h2 id="contact" className="footer__title">
-          Contact
-        </h2>
-        <p className="footer__contact">Email : teddyBarieraud@gmail.com</p>
-      </Footer>
+      <Contact />
+      <Footer />
     </div>
   );
 }
