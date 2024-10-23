@@ -20,14 +20,24 @@ function Projet() {
         <div className="informations__link--content">
           {post.lien ? (
             <>
-              <a className="informations__link" href={post.lien}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="informations__link"
+                href={post.lien}
+              >
                 Cliquer pour voir le site
               </a>
             </>
           ) : null}
           {post.github ? (
             <>
-              <a className="informations__link" href={post.github}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="informations__link"
+                href={post.github}
+              >
                 Cliquer pour voir le projet sur Github
               </a>
             </>

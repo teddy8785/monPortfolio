@@ -4,8 +4,6 @@ import "../styles/card.css";
 function Card({ id, nom, description, image, imageDown }) {
   return (
     <NavLink
-      target="_blank"
-      rel="noopener noreferrer"
       className="card__link"
       to={`/Projet/${id}`}
     >
