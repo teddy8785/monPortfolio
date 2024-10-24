@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
 }
+
 .card {
   border: black 1px solid;
   border-radius: 10px;
@@ -8,7 +9,7 @@ a {
   transition: transform 200ms;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
 
   &__title {
@@ -35,7 +36,7 @@ a {
     width: 100%;
     object-fit: cover;
     object-position: top;
-    height: 230px;
+    height: 300px;
   }
 
   &__link {
@@ -46,10 +47,6 @@ a {
 @media (max-width: 768px) {
   .card {
     padding: 10px;
-
-    &__title {
-      font-size: 15px;
-    }
 
     &__description {
       font-size: 15px;
