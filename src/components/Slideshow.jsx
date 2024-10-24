@@ -22,7 +22,7 @@ function Slideshow() {
 
   const openImageInNewTab = (img) => {
     const imageUrl = `${process.env.PUBLIC_URL}/${img}`;
-    window.open(imageUrl, "_blank"); // Ouvre l'image dans un nouvel onglet
+    window.open(imageUrl, "_blank");
   };
   
   const deleteArrowLeft =

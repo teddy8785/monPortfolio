@@ -16,18 +16,15 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr;
       gap: 20px;
+      margin-top: 50px;
     }
   }
 
   
 @media (max-width: 768px) {
   .main {
-    padding: 5px;
-
-    &__title {
-      font-size: 25px;
-    }
-
+    padding: 0px 30px 30px 30px;
+    
     &__gallery {
       grid-template-columns: 1fr 1fr;
     }

@@ -48,7 +48,7 @@ export const ContactUs = () => {
 function Contact() {
   return (
     <section id="contact" className="contact">
-      <h2 className="contact__title">Pour me contacter :</h2>
+      <h2 className="contact__title">POUR ME CONTACTER :</h2>
       <ContactUs />
     </section>
   );

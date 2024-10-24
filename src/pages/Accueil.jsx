@@ -10,15 +10,15 @@ function Accueil() {
   return (
     <div>
       <Header>
-        <h1 className="header__title">Mon portfolio</h1>
+        <h1 className="header__title">PORTFOLIO BARIERAUD</h1>
         <nav className="header__link">
-          <HashLink smooth to="#moi" className="header__link--color">
+          {/* <HashLink smooth to="#moi" className="header__link--format">
             A propos
-          </HashLink>
-          <HashLink smooth to="#projet" className="header__link--color">
+          </HashLink> */}
+          <HashLink smooth to="#projet" className="header__link--format">
             Mes projets
           </HashLink>
-          <HashLink smooth to="#contact" className="header__link--color">
+          <HashLink smooth to="#contact" className="header__link--format">
             contact
           </HashLink>
         </nav>

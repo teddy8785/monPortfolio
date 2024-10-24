@@ -17,6 +17,7 @@ a {
     font-size: 25px;
     margin-bottom: 0;
     margin-top: 0;
+    font-family: "Rammetto One", sans-serif;
   }
 
   &__description {
@@ -27,6 +28,7 @@ a {
     margin-bottom: 30px;
     height: 50px;
     overflow: auto;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   &__img {
@@ -50,7 +52,7 @@ a {
     }
 
     &__description {
-      font-size: 10px;
+      font-size: 15px;
     }
   }
 }
