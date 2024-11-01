@@ -18,6 +18,16 @@ function Projet() {
       <Header>
         <h1 className="header__title">{post.nom}</h1>
         <div className="informations__link--content">
+          <button
+            className="informations__link"
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              window.history.back();
+            }}
+          >
+            Retour
+          </button>
           {post.lien ? (
             <>
               <a
@@ -27,7 +37,7 @@ function Projet() {
                 href={post.lien}
               >
                 Cliquer pour voir le site
-              </a>
+              </a>{" "}
             </>
           ) : null}
           {post.github ? (
