@@ -11,7 +11,6 @@
 }
 .informations__resume {
   display: flex;
-  gap: 150px;
 }
 .informations__resume--column {
   flex: 1;
@@ -49,11 +48,23 @@
   justify-content: center;
   margin-bottom: 10px;
 }
+.informations__return {
+  display: none;
+}
 @media (max-width: 768px) {
   .informations__resume {
     display: block;
   }
   .informations__link--content {
     flex-direction: column;
+  }
+  .informations__return {
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
   }
 }/*# sourceMappingURL=informations.css.map */

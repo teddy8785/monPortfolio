@@ -12,7 +12,6 @@
 
     &__resume {
         display: flex;
-        gap: 150px;
     }
 
     &__resume--column {
@@ -57,6 +56,10 @@
         margin-bottom: 10px;
     }
 
+    &__return {
+       display: none;
+    }
+
     @media (max-width: 768px) {
         &__resume {
             display:block;
@@ -64,6 +67,16 @@
 
         &__link--content {
             flex-direction: column;
+        }
+
+        &__return {
+            display: inline;
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin: 10px;
+            padding: 5px;
+            font-size: 15px;
         }
     }
 }
