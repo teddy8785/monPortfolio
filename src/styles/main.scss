@@ -9,8 +9,9 @@
       font-weight: 600;
       font-size: 40px;
       color: blue;
+      scroll-margin-top: 230px;
     }
-    
+
     &__gallery {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -24,6 +25,10 @@
 @media (max-width: 768px) {
   .main {
     padding: 0px 30px 30px 30px;
+
+    &__title {
+      scroll-margin-top: 300px;
+    }
     
     &__gallery {
       grid-template-columns: 1fr;

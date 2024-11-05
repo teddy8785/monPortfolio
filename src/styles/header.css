@@ -5,6 +5,9 @@
   align-items: center;
   background-color: blue;
   padding-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 .header__title {
   font-weight: 600;
@@ -27,5 +30,8 @@
 @media (max-width: 435px) {
   .header .header__title {
     font-size: 25px;
+  }
+  .header .header__link--format {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=header.css.map */

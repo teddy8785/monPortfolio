@@ -12,9 +12,9 @@ function Accueil() {
       <Header>
         <h1 className="header__title">PORTFOLIO BARIERAUD</h1>
         <nav className="header__link">
-          {/* <HashLink smooth to="#moi" className="header__link--format">
+          <HashLink smooth to="#moi" className="header__link--format header__link--scroll">
             A propos
-          </HashLink> */}
+          </HashLink>
           <HashLink smooth to="#projet" className="header__link--format">
             Mes projets
           </HashLink>

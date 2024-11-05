@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+  scroll-margin-top: 100px;
 }
 .contact__title {
   font-weight: 600;
@@ -32,4 +33,10 @@
   font-size: large;
   font-weight: 600;
   font-family: "Courier New", Courier, monospace;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    scroll-margin-top: 250px;
+  }
 }/*# sourceMappingURL=contact.css.map */

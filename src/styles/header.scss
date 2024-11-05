@@ -5,6 +5,9 @@
   align-items: center;
   background-color: blue;
   padding-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 
   &__title {
     font-weight: 600;
@@ -31,6 +34,10 @@
     .header {
       &__title {
         font-size: 25px;
+      }
+
+      &__link--format {
+        font-size: 15px;
       }
     }
   }
