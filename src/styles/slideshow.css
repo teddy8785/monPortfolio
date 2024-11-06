@@ -43,11 +43,14 @@
     height: 250px;
     margin: 30px 20px;
   }
+  .slideshow__img {
+    width: 70%;
+  }
   .slideshow__arrow {
-    width: 10px;
+    width: 15px;
   }
   .slideshow__arrow--left {
-    left: 10px;
+    left: 15px;
   }
   .slideshow__arrow--right {
     right: 10px;

@@ -52,6 +52,12 @@
   display: none;
 }
 @media (max-width: 768px) {
+  .informations {
+    margin-top: 0;
+  }
+  .informations__title {
+    margin-top: 0;
+  }
   .informations__resume {
     display: block;
   }
@@ -63,8 +69,9 @@
     position: absolute;
     left: 0;
     top: 0;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 10px;
+    color: blue;
   }
 }/*# sourceMappingURL=informations.css.map */

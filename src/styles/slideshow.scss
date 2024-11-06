@@ -49,12 +49,15 @@
             margin: 30px 20px;
         }
 
+        &__img {
+            width: 70%;
+        }
         &__arrow {
-            width: 10px;
+            width: 15px;
         }
 
         &__arrow--left {
-            left: 10px;
+            left: 15px;
         }
 
         &__arrow--right {

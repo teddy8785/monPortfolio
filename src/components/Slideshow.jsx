@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/slideshow.css";
-import arrowLeft from "../assets/arrow_left.png";
-import arrowRight from "../assets/arrow_right.png";
+import arrowLeft from "../assets/arrow-left.png";
+import arrowRight from "../assets/arrow-right.png";
 import { useParams } from "react-router-dom";
 import data from "../projets.json";
 
