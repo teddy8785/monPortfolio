@@ -5,9 +5,6 @@
   align-items: center;
   background-color: blue;
   padding-bottom: 20px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
 }
 .header__title {
   font-weight: 600;
