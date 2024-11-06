@@ -27,11 +27,12 @@
   font-family: "Rammetto One", sans-serif;
   font-size: 20px;
 }
+
 @media (max-width: 435px) {
-  .header .header__title {
+  .header__title {
     font-size: 25px;
   }
-  .header .header__link--format {
+  .header__link--format {
     font-size: 15px;
   }
 }/*# sourceMappingURL=header.css.map */

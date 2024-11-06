@@ -29,4 +29,9 @@
   .main__gallery {
     grid-template-columns: 1fr;
   }
+}
+@media (max-width: 435px) {
+  .main__title {
+    scroll-margin-top: 180px;
+  }
 }/*# sourceMappingURL=main.css.map */

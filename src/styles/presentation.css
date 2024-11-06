@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 0px 100px 0px;
+  margin-bottom: 100px;
   padding: 0px 60px 0px 60px;
   scroll-margin-top: 200px;
 }
@@ -28,7 +28,7 @@
   font-family: "Rammetto One", sans-serif;
 }
 .presentation__avatar {
-  width: 28%;
+  width: 25%;
   height: 100%;
   border-radius: 10px 0px 0px 10px;
 }
