@@ -24,7 +24,6 @@
   font-family: "Rammetto One", sans-serif;
   font-size: 20px;
 }
-
 @media (max-width: 435px) {
   .header__title {
     font-size: 25px;

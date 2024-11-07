@@ -34,7 +34,6 @@
   font-weight: 600;
   font-family: "Courier New", Courier, monospace;
 }
-
 @media (max-width: 768px) {
   .contact {
     scroll-margin-top: 270px;

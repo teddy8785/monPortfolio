@@ -42,14 +42,14 @@ a {
   &__link {
     border-radius: 10px;
   }
-}
-
+  
 @media (max-width: 768px) {
-  .card {
+  & {
     padding: 10px;
 
     &__description {
       font-size: 15px;
     }
   }
+}
 }
