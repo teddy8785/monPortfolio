@@ -3,10 +3,7 @@ import "../styles/card.css";
 
 function Card({ id, nom, description, image, imageDown }) {
   return (
-    <NavLink
-      className="card__link"
-      to={`/Projet/${id}`}
-    >
+    <NavLink className="card__link" to={`/Projet/${id}`}>
       <article className="card">
         <h3 className="card__title">{nom}</h3>
         <p className="card__description">{description}</p>

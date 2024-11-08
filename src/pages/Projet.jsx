@@ -7,13 +7,15 @@ import "../styles/informations.css";
 import { useEffect } from "react";
 
 function Projet() {
+  // récupération du projet par son id
   const { id } = useParams();
   const post = data.find((projet) => projet.id === id);
 
+  // au clic, la page suivante se retrouve en haut
   useEffect(() => {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
   }, []);
-  
+
   if (!post) {
     return <div>Projet non trouvé</div>;
   }
@@ -42,7 +44,7 @@ function Projet() {
                 href={post.lien}
               >
                 Cliquer pour voir le site
-              </a>{" "}
+              </a>
             </>
           ) : null}
           {post.github ? (

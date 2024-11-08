@@ -3,19 +3,20 @@ import "../styles/informations.css";
 import data from "../projets.json";
 
 function Informations() {
+  // récupération du projet par son id
   const { id } = useParams();
   const post = data.find((projet) => projet.id === id);
 
   if (!post) {
     return <div>Projet non trouvé</div>;
   }
-  
+
   return (
     <section className="informations">
       <div className="informations__resume--column">
-            <h2 className="informations__title">Mission</h2>
-            <p className= "informations__elements">{post.mission}</p>
-          </div>
+        <h2 className="informations__title">Mission</h2>
+        <p className="informations__elements">{post.mission}</p>
+      </div>
       <div className="informations__content">
         <div className="informations__resume">
           <div className="informations__resume--column">
@@ -26,7 +27,9 @@ function Informations() {
             )}
             <ul>
               {post.objectifs.map((objectif, index) => (
-                <li className= "informations__elements" key={index}>{objectif}</li>
+                <li className="informations__elements" key={index}>
+                  {objectif}
+                </li>
               ))}
             </ul>
           </div>
@@ -39,7 +42,9 @@ function Informations() {
             )}
             <ul>
               {post.competences.map((competence, index) => (
-                <li className= "informations__elements" key={index}>{competence}</li>
+                <li className="informations__elements" key={index}>
+                  {competence}
+                </li>
               ))}
             </ul>
           </div>

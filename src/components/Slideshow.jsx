@@ -6,12 +6,14 @@ import { useParams } from "react-router-dom";
 import data from "../projets.json";
 
 function Slideshow() {
+  // récupération des projets par id
   const { id } = useParams();
   const foundItem = data.find((item) => item.id === id);
   const pictures = foundItem.pictures;
 
   const [index, setIndex] = useState(0);
 
+  // naviguer entre les images
   const nextImg = () => {
     setIndex((img) => (img + 1) % pictures.length);
   };
@@ -20,11 +22,13 @@ function Slideshow() {
     setIndex((img) => (img - 1 + pictures.length) % pictures.length);
   };
 
+  // ouvre une fenêtre en cliquant sur l'image
   const openImageInNewTab = (img) => {
     const imageUrl = `${process.env.PUBLIC_URL}/${img}`;
     window.open(imageUrl, "_blank");
   };
-  
+
+  //efface les flèches  et les dots s'il n'y a qu'une photo
   const deleteArrowLeft =
     pictures.length === 1
       ? "slideshow__arrow--delete"
@@ -38,16 +42,19 @@ function Slideshow() {
 
   return (
     <section className="slideshow">
-      <img className="slideshow__img" src={`${process.env.PUBLIC_URL}/${pictures[index]}`} alt="images du site" onClick={() => openImageInNewTab(pictures[index])}/>
       <img
-        id="arrow_left"
+        className="slideshow__img"
+        src={`${process.env.PUBLIC_URL}/${pictures[index]}`}
+        alt="images du site"
+        onClick={() => openImageInNewTab(pictures[index])}
+      />
+      <img
         className={`${deleteArrowLeft}`}
         src={arrowLeft}
         alt="fleche gauche"
         onClick={prevImg}
       />
       <img
-        id="arrow_right"
         className={`${deleteArrowRight}`}
         src={arrowRight}
         alt="fleche droite"

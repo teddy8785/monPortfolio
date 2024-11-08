@@ -11,6 +11,7 @@ import { useLocation } from "react-router-dom";
 function Accueil() {
   const location = useLocation();
 
+  // retrait des ancres de l'historique
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.replace("#", ""));
