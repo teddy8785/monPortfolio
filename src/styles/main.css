@@ -28,7 +28,7 @@
     padding: 0px 30px 30px 30px;
   }
   .main__title {
-    scroll-margin-top: 300px;
+    scroll-margin-top: 220px;
   }
   .main__gallery {
     grid-template-columns: 1fr;

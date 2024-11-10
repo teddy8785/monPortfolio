@@ -2,6 +2,7 @@
   {
     "id": "1",
     "nom": "Riding cities",
+    "tags": ["HTML", "CSS"],
     "description": "Démarrer sur HTML et CSS en analysant et en complétant une landing page.",
     "mission": "Mettre à jour la page internet de Riding Cities, une association sportive qui promeut le skate en région.",
     "objectifs": [
@@ -19,6 +20,7 @@
   {
     "id": "2",
     "nom": "Booki",
+    "tags": ["HTML", "CSS", "Responsive Design"],
     "description": "Créer la page d'accueil d'une agence de voyage avec HTML & CSS.",
     "mission": "Intégrer la page web de Booki, une plateforme de réservation de vacances.",
     "objectifs": [
@@ -38,6 +40,7 @@
   {
     "id": "3",
     "nom": "Oh My Food",
+    "tags": ["Sass", "GitHub"],
     "description": "Améliorer l'interface d'un site mobile avec des animations CSS.",
     "mission": "Développer un site 'mobile first' qui répertorie les menus de restaurants gastronomiques.",
     "objectifs": [
@@ -63,6 +66,7 @@
   {
     "id": "4",
     "nom": "Print it",
+    "tags": ["JavaScript"],
     "description": "Premiers pas sur le langage JavaScript.",
     "mission": "Réaliser le carrousel du site internet d'une imprimerie avec JavaScript.",
     "objectifs": [
@@ -82,6 +86,7 @@
   {
     "id": "5",
     "nom": "Sophie Bluel",
+    "tags": ["JavaScript"],
     "description": "Premiers pas sur le langage JavaScript.",
     "mission": "Réaliser le carrousel du site internet d'une imprimerie avec JavaScript.",
     "objectifs": [
@@ -106,6 +111,7 @@
   {
     "id": "6",
     "nom": "Kasa",
+    "tags": ["React"],
     "description": "Créer une application web de location immobilière avec React.",
     "mission": "Démarrer le projet React et développer l'ensemble de l'application, les composants React, les routes React Router, en suivant les maquettes Figma.",
     "objectifs": [
@@ -153,6 +159,7 @@
   {
     "id": "8",
     "nom": "724 events",
+    "tags": ["React"],
     "description": "Débugger le site d'une agence d'événementiel.",
     "mission": "Prendre le relais d'un autre développeur pour réparer le site de l'agence.",
     "objectifs": [
@@ -174,6 +181,7 @@
   {
     "id": "9",
     "nom": "Argent Bank",
+    "tags": ["React"],
     "description": "Implémenter le front-end d'une application bancaire avec React.",
     "mission": "Prendre le relais d'un autre développeur pour réparer le site de l'agence.",
     "objectifs": [

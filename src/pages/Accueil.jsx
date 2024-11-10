@@ -2,6 +2,7 @@ import { HashLink } from "react-router-hash-link";
 
 import Header from "../components/Header";
 import Presentation from "../components/Presentation";
+import Competences from "../components/Competences";
 import Main from "../components/Main";
 import Contact from "../components/Contact";
 import { useEffect } from "react";
@@ -34,6 +35,13 @@ function Accueil() {
           >
             A propos
           </HashLink>
+          <HashLink
+            smooth
+            to="#competences"
+            className="header__link--format header__link--scroll"
+          >
+            Compétences
+          </HashLink>
           <HashLink smooth to="#projet" className="header__link--format">
             Mes projets
           </HashLink>
@@ -43,6 +51,7 @@ function Accueil() {
         </nav>
       </Header>
       <Presentation />
+      <Competences />
       <Main />
       <Contact />
       {/* <Footer>

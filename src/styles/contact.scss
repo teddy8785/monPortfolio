@@ -8,7 +8,7 @@
 
     &__title {
         font-weight: 600;
-        font-size: 40px;
+        font-size: 30px;
         color: blue;
         text-align: center;
     }
@@ -47,7 +47,7 @@
     
     @media (max-width: 435px) {
         & {
-            scroll-margin-top: 150px;
+            scroll-margin-top: 100px;
         }
     }
 }

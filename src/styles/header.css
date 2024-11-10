@@ -17,6 +17,9 @@
 .header__link {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 .header__link--format {
