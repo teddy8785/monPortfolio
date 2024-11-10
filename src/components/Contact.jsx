@@ -36,7 +36,7 @@ export const ContactUs = () => {
       <br />
       <label htmlFor="mail">Ecrivez votre email :</label>
       <input
-        type="text"
+        type="email"
         className="contact__input"
         id="mail"
         name="email"
